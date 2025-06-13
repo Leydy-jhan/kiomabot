@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: kiomabot
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    plan: free
